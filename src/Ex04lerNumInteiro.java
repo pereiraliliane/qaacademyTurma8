@@ -1,8 +1,11 @@
+import javax.swing.JOptionPane;
+
 public class Ex04lerNumInteiro {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
-        int valor1 = Integer.parseInt( JOptionPane.showInputDialog("Digite o primeiro número"));
-        System.out.println("valor1");
+        int primeiroNumero = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+        System.out.println("primeiroNumero");
     
-}
+    }
+}          
