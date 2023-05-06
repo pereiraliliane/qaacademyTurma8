@@ -10,7 +10,6 @@ public static void main(String[] args){
 
     System.out.println((numero01+numero02+numero03));
 
-
     }
 }
 
